@@ -1,0 +1,19 @@
+<template name="Home">
+  <head>
+    <title>URL Shortener</title>
+  </head>
+
+  <body>
+    <div class="main">
+      {{>loginButtons}}
+      <h1 class="title">URL Shortener</h1>
+      {{#if currentUser}}
+        {{> newUrl}}
+        {{> showUrls}}
+      {{else}}
+        {{> loginMessage}}
+      {{/if}}
+    </div>
+  </body>
+{{> footer}}
+</template>

@@ -1,0 +1,42 @@
+/* CSS declarations go here */
+.main {
+  margin: 20px, 20px, 20px, 20px;
+}
+
+.fixed {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.jumbotron {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.float-right {
+  float: right;
+}
+
+.form-align {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+.primary {
+  width: 500px;
+}
+
+.title {
+  /*margin-left: auto;
+  margin-right: auto;
+  width: 250px;*/
+  text-align: center;
+}
+
+.footer {
+ position:fixed;
+ bottom:0;
+ left:0;
+}

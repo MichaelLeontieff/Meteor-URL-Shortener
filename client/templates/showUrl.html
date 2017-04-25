@@ -1,0 +1,21 @@
+<template name="showUrls">
+  <h1 class="title">Shortened URL's</h1>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Long URL</th>
+        <th>Short URL</th>
+        <th>delete URL</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each urls}}
+      <tr>
+        <td>{{longURL}}</td>
+        <td><a href="http://localhost:3000/{{shortId}}" target="_blank">http://localhost:3000/{{shortId}}</a></td>
+        <td><button href="#" class="urlDelete btn btn-danger">Delete</button></td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</template>
